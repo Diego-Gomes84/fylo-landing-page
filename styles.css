@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'open sans';
+    background-color: #181e2a;
 }
 .btn-blue{
     color: #fff;
@@ -50,7 +51,43 @@ main {
     color: #fff;
     padding: 50px 0 30px 0;
 }
-.main-container h2{
+.main-container h3{
     color: #fff;
+    width: 600px;
     padding-bottom: 30px;
 }
+
+/*second-container*/
+
+.second-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+#square {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 80px 50px; 
+}
+
+/*third-container*/
+
+.third-container{
+
+}
+
+
+
+
+
+
+/*fourth-container*/
+
+
+
+
