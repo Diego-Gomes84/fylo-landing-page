@@ -56,6 +56,10 @@ main {
     width: 600px;
     padding-bottom: 30px;
 }
+.main-container a:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
 
 /*second-container*/
 
@@ -74,19 +78,51 @@ main {
     color: #fff;
     padding: 80px 50px; 
 }
+#square img:hover{
+transform: scale(1.2);
+transition: transform 1s ease;
+}
 
 /*third-container*/
 
 .third-container{
-
+    display: flex;
+    margin: 80px 80px;
+}
+#third-content{
+    margin: 100px 0 0 50px;
+    color: #fff;
+}
+#third-content h2{
+    font-size: 2em;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#third-content p{
+    width: 540px;
+    margin-bottom: 20px;
+}
+#third-content a{
+    position: relative;
+    color: #43b0cc;
+    text-decoration: none;
+    border-bottom: 2px solid #43b0cc;
+}
+#third-content a i{
+    padding-left: 5px;
+    position: absolute;
+    top: 4px;
+}
+#third-content a i:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease;
 }
 
-
-
-
-
-
 /*fourth-container*/
+.fourth-container{
+    margin-top: 300px;
+}
+
 
 
 
