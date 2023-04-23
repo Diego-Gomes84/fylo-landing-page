@@ -167,7 +167,8 @@ main img{
     width: fit-content;
 }
 .profile img{
-    height: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 100px;
 }
 .profile-info{
@@ -244,4 +245,34 @@ footer {
 }
 .cont4{
     
+}
+
+/*team*/
+.team{
+    margin: 0 0 0 300px;
+    display: flex;
+
+}
+/*.team img{
+    height: 300px;
+}
+.member-1{
+    display: flex;
+    color: #fff;
+    padding-bottom: 100px;
+    border-left: 1px solid #43b0cc;
+    border-bottom: 1px solid #43b0cc;
+    border-radius: 0 10px 0 10px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border-right: 1px solid #43b0cc;
+    border-top: 1px solid #43b0cc;
+    padding: 0 50px;
+    justify-content: center;
+    align-content: space-between;
+    height: 300px;
+    border-radius: 0 10px 0 0;
 }
