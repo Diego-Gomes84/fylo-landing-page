@@ -47,6 +47,7 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-y: 630px;
+    background-size: contain;
     height: 1050px;
 }
 main img{
